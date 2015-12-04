@@ -4,9 +4,11 @@ void setup() {
 }
 
 void draw() {
-  if (mousePressed != true) { 
+  if (mousePressed == true) { 
     drawACircleAt(mouseX, mouseY);
   }
+  fill(0, 0, 255);
+  rect(400, 300, 50, 50);
 }
 
 void drawACircleAt(float x, float y) { 
